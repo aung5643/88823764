@@ -1,0 +1,32 @@
+.head{
+    border : 1px solid black;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.content{
+    display:flex;
+}
+
+.content img{
+    width: 500px;
+    /* ความกว้าง */
+    margin: 20px;
+    /* กำหนดพื้นที่รอบนอก */
+    padding: 20px;
+    /* กำหรดพื้นที่รอบด้านใน */
+    display: flex;
+    /*แบ่งเป็นกลองช่วงคอนเทนต์ */
+    border: 2px solid black; 
+    /* กรอบ */
+}
+
+.content p{
+    width : 1000px;
+    border: 2px solid;
+    padding: 10px;
+    display: flex;
+}
